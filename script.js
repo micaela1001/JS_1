@@ -1,4 +1,4 @@
-for (let number = 1; number <100; number++) {
+for (let number = 1; number < 100; number++) {
   if (number % 5 === 0 && number % 3 === 0) {
     console.log("Fizz" + "Buzz" + number);
   } else if (number % 5 === 0) {
@@ -9,4 +9,3 @@ for (let number = 1; number <100; number++) {
     console.log();
   }
 }
-
